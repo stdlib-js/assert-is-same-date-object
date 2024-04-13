@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isSameDateObject from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-date-object@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-same-date-object/tags). For example,
+
+```javascript
 import isSameDateObject from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-date-object@v0.1.0-esm/index.mjs';
 ```
 
@@ -75,7 +80,7 @@ bool = isSameDateObject( d1, new Date( 2023, 11, 31, 23, 59, 59, 78 ) );
 <body>
 <script type="module">
 
-import isSameDateObject from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-date-object@v0.1.0-esm/index.mjs';
+import isSameDateObject from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-date-object@esm/index.mjs';
 
 var d1 = new Date( 2024, 11, 31, 23, 59, 59, 999 );
 var d2 = new Date( 2024, 11, 31, 23, 59, 59, 999 );
