@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isSameDateObject from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-date-object@esm/index.mjs';
+import isSameDateObject from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-date-object@v0.1.0-esm/index.mjs';
 ```
 
 #### isSameDateObject( d1, d2 )
@@ -75,7 +75,7 @@ bool = isSameDateObject( d1, new Date( 2023, 11, 31, 23, 59, 59, 78 ) );
 <body>
 <script type="module">
 
-import isSameDateObject from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-date-object@esm/index.mjs';
+import isSameDateObject from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-date-object@v0.1.0-esm/index.mjs';
 
 var d1 = new Date( 2024, 11, 31, 23, 59, 59, 999 );
 var d2 = new Date( 2024, 11, 31, 23, 59, 59, 999 );
