@@ -44,6 +44,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+isSameDateObject = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-date-object@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-same-date-object/tags). For example,
+
+```javascript
 isSameDateObject = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-date-object@v0.1.0-umd/browser.js' )
 ```
 
@@ -56,7 +61,7 @@ var isSameDateObject = require( 'path/to/vendor/umd/assert-is-same-date-object/i
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-date-object@v0.1.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-date-object@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -97,7 +102,7 @@ bool = isSameDateObject( d1, new Date( 2023, 11, 31, 23, 59, 59, 78 ) );
 <!DOCTYPE html>
 <html lang="en">
 <body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-date-object@v0.1.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-date-object@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
